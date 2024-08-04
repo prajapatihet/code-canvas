@@ -1,7 +1,33 @@
 [
     {
         "id": "card_component_1",
-        "title": "Product Card",
+        "title": "Product Card 1",
+        "subtitle": "Card",
+        "description": "This is the description for the Product Card component.",
+        "code": {
+          "html": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Product Card</title>\n  <style>\n    body {\n      font-family: Arial, sans-serif;\n    }\n    .card {\n      width: 300px;\n      border: 1px solid #ccc;\n      border-radius: 8px;\n      padding: 16px;\n      box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n    }\n    .card img {\n      width: 100%;\n      border-radius: 8px 8px 0 0;\n    }\n    .card h1 {\n      font-size: 24px;\n      margin: 16px 0 8px;\n    }\n    .card p {\n      font-size: 14px;\n      color: #555;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"card\">\n    <img src=\"https://example.com/product.jpg\" alt=\"Product Image\">\n    <h1>Product Name</h1>\n    <p>Product description goes here. It provides details about the product.</p>\n  </div>\n</body>\n</html>",
+          "css": "body { font-family: Arial, sans-serif; } .card { width: 300px; border: 1px solid #ccc; border-radius: 8px; padding: 16px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); } .card img { width: 100%; border-radius: 8px 8px 0 0; } .card h1 { font-size: 24px; margin: 16px 0 8px; } .card p { font-size: 14px; color: #555; }",
+          "js": "console.log('Product Card loaded');"
+        },
+        "output": "https://prajapatihet.github.io/Components/Accordions/Modern-Accordion",
+        "directory": "/Accordions/Modern-Accordion"
+    },
+     {
+        "id": "card_component_2",
+        "title": "Product Card 2",
+        "subtitle": "Card",
+        "description": "This is the description for the Product Card component.",
+        "code": {
+          "html": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Product Card</title>\n  <style>\n    body {\n      font-family: Arial, sans-serif;\n    }\n    .card {\n      width: 300px;\n      border: 1px solid #ccc;\n      border-radius: 8px;\n      padding: 16px;\n      box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n    }\n    .card img {\n      width: 100%;\n      border-radius: 8px 8px 0 0;\n    }\n    .card h1 {\n      font-size: 24px;\n      margin: 16px 0 8px;\n    }\n    .card p {\n      font-size: 14px;\n      color: #555;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"card\">\n    <img src=\"https://example.com/product.jpg\" alt=\"Product Image\">\n    <h1>Product Name</h1>\n    <p>Product description goes here. It provides details about the product.</p>\n  </div>\n</body>\n</html>",
+          "css": "body { font-family: Arial, sans-serif; } .card { width: 300px; border: 1px solid #ccc; border-radius: 8px; padding: 16px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); } .card img { width: 100%; border-radius: 8px 8px 0 0; } .card h1 { font-size: 24px; margin: 16px 0 8px; } .card p { font-size: 14px; color: #555; }",
+          "js": "console.log('Product Card loaded');"
+        },
+        "output": "https://prajapatihet.github.io/Components/Accordions/Modern-Accordion",
+        "directory": "/Accordions/Modern-Accordion"
+    },
+     {
+        "id": "card_component_3",
+        "title": "Product Card 3",
         "subtitle": "Card",
         "description": "This is the description for the Product Card component.",
         "code": {
