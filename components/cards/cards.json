@@ -1,0 +1,15 @@
+[
+    {
+        "id": "card_component_1",
+        "title": "Card 1",
+        "subtitle": "3D-Animated-Card",
+        "description": "This is the description for the Card component.",
+        "code": {
+            "html": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <title>3D Animated Card</title>\n</head>\n\n<body>\n    <div class=\"box\">\n        <h1>3D Animated Card</h1>\n        <div class=\"card\">\n            <div class=\"content\">\n                <h2>Heading</h2>\n                <p>Beautiify Presents</p>\n                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt explicabo quaerat ea laborum\n                    deleniti similique eaque nihil fuga, odio, tempora, harum reiciendis? At, quam veritatis autem optio\n                    quia dignissimos quo!</p>\n                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt explicabo quaerat ea laborum\n                    deleniti similique eaque nihil fuga, odio, tempora, harum reiciendis? At, quam veritatis autem optio\n                    quia dignissimos quo!</p>\n            </div>\n        </div>\n    </div>\n</body>\n\n</html>",
+            "css": "body {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100vh;\n    background: #dfc2f2;\n    background-image: linear-gradient(to right, #b3fff9, #dafddd);\n}\n\nh1 {\n    text-align: center;\n    color: black;\n}\n\n.card {\n    background-image: url(https://www.ultimatecarpage.com/images/car/6801/Porsche-911-GT3-68686.jpg);\n    background-size: cover;\n    display: flex;\n    flex-direction: column;\n    width: 20rem;\n    height: 29rem;\n    border-radius: 1rem;\n    transition: all linear .5s;\n    overflow: hidden;\n    box-shadow: 5px 5px 5px 5px rgba(15, 14, 14, 0.673);\n}\n\n.cardimage {\n    width: 20rem;\n    height: 40rem;\n    border-radius: 1rem 1rem 0 0;\n    transition: all linear .5s;\n}\n\np {\n    transition: all linear .5s;\n}\n\n.content {\n    backdrop-filter: blur(5px);\n    background-color: rgba(248, 248, 247, 0.222);\n    position: relative;\n    top: 25rem;\n    height: 30rem;\n    padding: .3rem 1.1rem;\n    color: white;\n    transition: all linear .5s;\n}\n\n.card:hover {\n    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);\n    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);\n\n    .content {\n        top: 5rem;\n    }\n}",
+            "js": ""
+          },
+        "output": "https://prajapatihet.github.io/Components/Cards/3D-Animated-Card",
+        "directory": "/Cards/3D-Animated-Card"
+    }
+]
